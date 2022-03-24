@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+}
+.main{
+    background-image: url("../assets/glowing-musical-pentagram-background-with-sound-notes/SL.123119.26540.04.jpg");
+    background-size: cover;
+    height:740px;
+}
+.main-head{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-100%,-50%);
+}
+.main-head h1{
+    color:white;
+    font-size:3rem;
+    padding-bottom:30px;
+    line-height:55px;
+}
+.main-btn{
+    height:60px;
+}
+.trend-list {
+    display: flex;
+    margin-top: 40px;
+}
+.trend-list h3{
+    color:white;
+    font-size:20px;
+    margin: 0;
+    padding-top:5px;
+}
+.trend-list ul{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    display: flex;
+}
+.trend-list a{
+    text-decoration: none;
+    color:white;
+    display: inline-block;
+    margin:0px 15px;
+    background-color: black;
+    padding:10px;
+    border-radius: 30px;
+}
+.cs{
+    width:80%;
+    margin:0px auto;
+}
+.cs h2{
+    color: white;
+    margin-bottom: 50px;
+}
+.carousel-inner{
+    background-color: black;
+    padding:20px 70px;
+}
+.rec-desc{
+    text-align: start;
+    color:white;
+    padding:10px;
+}
+.rec-desc a{
+    text-decoration: none;
+    color:white;
+    display: inline-block;
+    margin:10px 0px;
+}
+.img-desc{
+    position:relative;
+    text-align: center;
+}
+.img-desc h2{
+    position: absolute;
+}
+.platform{
+    margin-top:150px;
+    color:white;
+}
+.platform h1{
+    font-size:3rem;
+}
+.platform p{
+    font-size: 20px;
+}
+.platform button{
+    font-size:20px;
+    height:40px;
+    padding:5px 10px;
+    border:none;
+    outline:none;
+    background-color: rgb(126, 122, 122);
+    color:white;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+.spotify-img{
+    background-image: url("assets/spotify.png");
+}
